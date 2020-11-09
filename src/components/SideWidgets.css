@@ -1,0 +1,30 @@
+.sideWidgets {
+    display: flex;  
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sideWidgets__Icons > .sideWidgets__Icon  {
+    padding:5px ;
+    margin:10px 10px;
+    color: white;
+    
+}
+
+.sideWidgets__Icons > .sideWidgets__Icon1 {
+    color: lightgreen;
+    padding: 5px ;
+    margin: 10px 10px;
+}
+
+.sideWidgets__Icons > .sideWidgets__Icon1:hover {
+    background-color: green;
+    border-radius: 10px;    
+}
+
+.sideWidgets__Icons > .sideWidgets__Icon:hover {
+    background-color: green;
+    border-radius: 10px; 
+}
+
